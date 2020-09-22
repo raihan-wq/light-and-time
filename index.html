@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <button onclick="document.getElementById('img').src='pic_bulbon.gif' " >light ON</button>
+     
+     <img id ="img"src="pic_bulboff.gif" alt="">
+
+     <button onclick="document.getElementById('img').src='pic_bulboff.gif' " >light off</button>
+     <br>
+     <p id="demo1">What is the time now ?</p>
+     <button onclick="document.getElementById('demo1').innerHTML=Date()">Watch time</button>
+    <script src="js.js"></script>
+</body>
+</html>

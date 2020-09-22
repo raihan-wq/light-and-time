@@ -1,0 +1,13 @@
+body{
+   background:black; 
+  
+}
+button{
+   background:#26A69A;
+   border: none;
+   padding: 5px 10px;
+   color:  white;
+}
+#demo1{
+   color:#FF6188 ;
+}
